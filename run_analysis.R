@@ -64,7 +64,7 @@ dataSet$activity <- act_group
 # check if reshape2 package is installed
 if (!"reshape2" %in% installed.packages()) {
   install.packages("reshape2")
-}
+} 
 library("reshape2")
 
 # melt data to tall skinny data and cast means. Finally write the tidy data to the working directory as "tidy_data.txt"
